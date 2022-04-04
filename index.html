@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+    <div class="banka">
+        <img class="logo" src="./images/Asset 1@3x 1.svg">
+        <div class="services">
+            <div class="bank">БАНК</div>
+            <div class="biznes">БИЗНЕС</div>
+            <div class="investicii">ИНВЕСТИЦИИ</div>
+            <div class="strakhovanie">СТРАХОВАНИЕ</div>
+            <div class="mobile">МОБАЙЛ</div>
+            <div class="puteshestviya">ПУТЕШЕСТВИЯ</div>
+            <div class="razvlecheniya">РАЗВЛЕЧЕНИЯ</div>
+        </div>
+        <div class="enter">
+            <div class="voiti">ВОЙТИ</div>
+        </div>
+    </div>
+    <div class="mainblock">
+        <div class=converter>Конвертер валют онлайн</div>
+        <div class="wrapper">
+            <div class="ihave">
+                <div class="ihavetitle">У меня есть</div>
+                <div class="currencies">
+                    <button class="rubh" id='left-RUB'>RUB</button>
+                    <button class="usdh" id='left-USD'>USD</button>
+                    <button class="eurh" id='left-EUR'>EUR</button>
+                    <button class="gbrh" id='left-GBP'>GBP</button>
+                    <select class='leftSelect'></select>
+                </div>
+                <div class="inputblockh">
+                    <input class="inputihave">
+                    <div class="currentcourseh"></div>
+                    <p class="onlyoneh"></p>
+                </div>
+            </div>
+            <img class="changeimage" src="./images/Group 5.svg">
+            <div class="iwant">
+                <div class="iwanttitle">Хочу приобрести</div>
+                <div class="currenciesw">
+                    <button class="rubw" id='right-RUB'>RUB</button>
+                    <button class="usdw" id='right-USD'>USD</button>
+                    <button class="eurw" id='right-EUR'>EUR</button>
+                    <button class="gbrw" id='right-GBP'>GBP</button>
+                    <select class="rightSelect"></select>
+                </div>
+                <div class="inputblockw">
+                    <input class="inputiwant">
+                    <div class="currentcoursew"></div>
+                    <div class="onlyonew"></div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="overlay hidden">     
+        <lottie-player class="lotti-player" src="https://assets1.lottiefiles.com/packages/lf20_bUdJXt.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
